@@ -2,7 +2,7 @@
 
 An end-to-end Power BI dashboard analyzing Amazon product sales, reviews, and category performance across a **4-year, 89,000+ row transactional dataset (2019–2022)**. The report combines DAX time-intelligence measures with interactive visuals to surface YTD/QTD performance, top-selling products, and category-level trends.
 
-![Dashboard Preview](assets/dashboard-preview.png)
+![Dashboard Preview](amazon_dashboard.png)
 
 ---
 
@@ -92,8 +92,7 @@ DIVIDE ( [YTD Sales], CALCULATE ( [YTD Sales], ALL ( Amazon_Data[Product Categor
 ```
 ├── AMAZON_SALES_DASHBOARD.pbix     # Power BI report file
 ├── Amazon_Combined_Data.xlsx       # Source dataset
-├── assets/
-│   └── dashboard-preview.png       # Dashboard screenshot
+├── amazon_dashboard.png            # Dashboard screenshot
 └── README.md
 ```
 
